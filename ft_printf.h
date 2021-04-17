@@ -6,7 +6,7 @@
 /*   By: dteixeir <dteixeir@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/16 22:19:53 by dteixeir          #+#    #+#             */
-/*   Updated: 2021/04/17 13:13:40 by dteixeir         ###   ########.fr       */
+/*   Updated: 2021/04/17 13:23:22 by dteixeir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,5 +74,6 @@ void			print_p(t_flags *flags, unsigned long pointer);
 void			print_d_i(t_flags *flags, long int num);
 void			print_u(t_flags *flags, unsigned num);
 void			print_hex(t_flags *flags, unsigned int num);
+int				ft_printf(const char *input, ...);
 
 #endif
